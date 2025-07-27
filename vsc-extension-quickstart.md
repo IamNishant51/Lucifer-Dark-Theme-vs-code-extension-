@@ -1,28 +1,37 @@
-# Welcome to your VS Code Extension
+# Lucifer Dark Theme for VS Code
 
-## What's in the folder
+A **minimal**, **beautiful**, and **visually balanced** dark theme for developers who love clean interfaces and smooth coding experience. Inspired by macOS elegance and Linux terminal color vibes.
 
-* This folder contains all of the files necessary for your color theme extension.
-* `package.json` - this is the manifest file that defines the location of the theme file and specifies the base theme of the theme.
-* `themes/Lucifer-Dark-Theme-color-theme.json` - the color theme definition file.
+---
+## ✨ Features
 
-## Get up and running straight away
+- Subtle dark background for reduced eye strain
+- Neutral, soft, and professional syntax highlighting
+- Vibrant but non-poppy colors for variables, functions, keywords, and strings
+- Compatible with popular fonts like `Fira Code`, `JetBrains Mono`, `Dank Mono`
+- Smooth cursor animations and font ligatures
 
-* Press `F5` to open a new window with your extension loaded.
-* Open the color theme picker with  the `File > Preferences > Theme > Color Theme` menu item, or use the `Preferences: Color Theme command (Ctrl+K Ctrl+T)` and pick your theme
-* Open a file that has a language associated. The languages' configured grammar will tokenize the text and assign 'scopes' to the tokens. To examine these scopes, invoke the `Developer: Inspect Editor Tokens and Scopes` command from the Command Palette (`Ctrl+Shift+P` or `Cmd+Shift+P` on Mac).
+---
 
-## Make changes
+## 🖼️ Screenshots
 
-* Changes to the theme file are automatically applied to the Extension Development Host window.
+### JavaScript
+![JS Preview](./screenshots/js.png)
 
-## Adopt your theme to Visual Studio Code
+### React + JSX
+![React Preview](./screenshots/react.png)
 
-* The token colorization is done based on standard TextMate themes. Colors are matched against one or more scopes.
+### HTML
+![HTML Preview](./screenshots/html.png)
 
-To learn more about scopes and how they're used, check out the [color theme](https://code.visualstudio.com/api/extension-guides/color-theme) documentation.
+---
 
-## Install your extension
+## 📦 Installation (Local)
 
-* To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
-* To share your extension with the world, read on https://code.visualstudio.com/api/working-with-extensions/publishing-extension about publishing an extension.
+1. Download or clone this repository.
+2. Open the terminal inside the theme folder.
+3. Run:
+
+   ```bash
+   npm install -g @vscode/vsce
+   vsce package
