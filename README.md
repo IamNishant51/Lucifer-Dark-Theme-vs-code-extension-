@@ -25,13 +25,3 @@ A **minimal**, **beautiful**, and **visually balanced** dark theme for developer
 ![HTML Preview](./screenshots/html.png)
 
 ---
-
-## 📦 Installation (Local)
-
-1. Download or clone this repository.
-2. Open the terminal inside the theme folder.
-3. Run:
-
-   ```bash
-   npm install -g @vscode/vsce
-   vsce package
