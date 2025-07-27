@@ -12,16 +12,3 @@ A **minimal**, **beautiful**, and **visually balanced** dark theme for developer
 - Smooth cursor animations and font ligatures
 
 ---
-
-## 🖼️ Screenshots
-
-### JavaScript
-![JS Preview](./screenshots/js.png)
-
-### React + JSX
-![React Preview](./screenshots/react.png)
-
-### HTML
-![HTML Preview](./screenshots/html.png)
-
----
