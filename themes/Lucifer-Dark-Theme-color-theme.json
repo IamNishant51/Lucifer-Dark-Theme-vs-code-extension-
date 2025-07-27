@@ -1,149 +1,163 @@
 {
-  "name": "Lucifer Terminal Dark",
+  "name": "Lucifer Terminal Dark (Hacker Edition)",
   "type": "dark",
   "colors": {
-    // --- Core Editor (Deep Terminal Black Base) ---
-    "editor.background": "#0a0e13",
-    "editor.foreground": "#e6edf3",
+    // --- Core Editor (Deep Terminal Black Base with a hint of blue) ---
+    "editor.background": "#0B0E14", // Deeper, slightly richer black
+    "editor.foreground": "#E0E8F0", // Soft, cool white for main text
 
-    // --- Selection & Highlighting (Smooth Blue Glow) ---
-    "editor.selectionBackground": "#1c4c7a66",
-    "editor.selectionHighlightBackground": "#1c4c7a33",
-    "editor.lineHighlightBackground": "#141a22",
-    "editor.wordHighlightBackground": "#2d3748aa",
-    "editor.wordHighlightStrongBackground": "#2d374866",
-    "editor.findMatchBackground": "#ffd33d44",
-    "editor.findMatchHighlightBackground": "#ffd33d22",
+    // --- Selection & Highlighting (Electric Blue/Cyan Glow) ---
+    "editor.selectionBackground": "#2A5B8080", // More vibrant, slightly translucent blue
+    "editor.selectionHighlightBackground": "#2A5B8040",
+    "editor.lineHighlightBackground": "#161B24", // Subtle shift from editor background
+    "editor.wordHighlightBackground": "#3D4A5Caa", // Slightly more defined highlight
+    "editor.wordHighlightStrongBackground": "#3D4A5C66",
+    "editor.findMatchBackground": "#FFD33D44", // Yellow remains, but more defined
+    "editor.findMatchHighlightBackground": "#FFD33D22",
 
-    // --- Cursor & Line Numbers (Subtle but Visible) ---
-    "editorCursor.foreground": "#64ffda",
-    "editorLineNumber.foreground": "#3d4852",
-    "editorLineNumber.activeForeground": "#7c8b9a",
+    // --- Cursor & Line Numbers (Bright Accents) ---
+    "editorCursor.foreground": "#69FFC9", // Brighter, purer green for the cursor
+    "editorLineNumber.foreground": "#4F5968", // Muted for readability
+    "editorLineNumber.activeForeground": "#8FD4C1", // A subtle green for active line number
 
-    // --- Sidebar & Panel Hierarchy ---
-    "sideBar.background": "#0d1117",
-    "sideBar.foreground": "#c9d1d9",
-    "sideBar.border": "#21262d",
-    "sideBarSectionHeader.background": "#161b22",
-    "sideBarSectionHeader.foreground": "#f0f6fc",
+    // --- Sidebar & Panel Hierarchy (Clearer Separation) ---
+    "sideBar.background": "#0F131A", // Distinct from editor background
+    "sideBar.foreground": "#CBD5E0",
+    "sideBar.border": "#2C3540", // Stronger border for separation
+    "sideBarSectionHeader.background": "#1B2028",
+    "sideBarSectionHeader.foreground": "#F0F6FC",
 
-    // --- Activity Bar (Minimal Strip) ---
-    "activityBar.background": "#0d1117",
-    "activityBar.foreground": "#7d8590",
-    "activityBar.activeBorder": "#64ffda",
-    "activityBar.activeBackground": "#1c4c7a22",
-    "activityBar.border": "#21262d",
+    // --- Activity Bar (Striking Active Indicator) ---
+    "activityBar.background": "#0F131A",
+    "activityBar.foreground": "#7E8C9A",
+    "activityBar.activeBorder": "#69FFC9", // Bright green active border
+    "activityBar.activeBackground": "#2A5B8022", // Subtle blue background for active
+    "activityBar.border": "#2C3540",
 
-    // --- Tabs (Clean & Modern) ---
-    "tab.activeBackground": "#0a0e13",
-    "tab.activeForeground": "#e6edf3",
-    "tab.activeBorder": "#64ffda",
-    "tab.activeBorderTop": "#64ffda",
-    "tab.inactiveBackground": "#161b22",
-    "tab.inactiveForeground": "#7d8590",
-    "tab.border": "#21262d",
+    // --- Tabs (Crisp & Focused) ---
+    "tab.activeBackground": "#0B0E14", // Matches editor background for continuity
+    "tab.activeForeground": "#E0E8F0",
+    "tab.activeBorder": "#69FFC9", // Bright green border on active tab
+    "tab.activeBorderTop": "#69FFC9",
+    "tab.inactiveBackground": "#1B2028",
+    "tab.inactiveForeground": "#7E8C9A",
+    "tab.border": "#2C3540",
 
     // --- Title Bar ---
-    "titleBar.activeBackground": "#0d1117",
-    "titleBar.activeForeground": "#e6edf3",
-    "titleBar.border": "#21262d",
+    "titleBar.activeBackground": "#0F131A",
+    "titleBar.activeForeground": "#E0E8F0",
+    "titleBar.border": "#2C3540",
 
-    // --- Status Bar (Sleek Bottom Strip) ---
-    "statusBar.background": "#0d1117",
-    "statusBar.foreground": "#7d8590",
-    "statusBar.border": "#21262d",
-    "statusBar.noFolderBackground": "#0d1117",
+    // --- Status Bar (Subtle Info Strip) ---
+    "statusBar.background": "#0F131A",
+    "statusBar.foreground": "#7E8C9A",
+    "statusBar.border": "#2C3540",
+    "statusBar.noFolderBackground": "#0F131A",
+    "statusBar.debuggingBackground": "#E06C75", // Clearer red for debugging
 
-    // --- Panel & Terminal ---
-    "panel.background": "#0a0e13",
-    "panel.border": "#21262d",
-    "panelTitle.activeForeground": "#e6edf3",
-    "panelTitle.inactiveForeground": "#7d8590",
+    // --- Panel & Terminal (Unified with Editor Background) ---
+    "panel.background": "#0B0E14",
+    "panel.border": "#2C3540",
+    "panelTitle.activeForeground": "#E0E8F0",
+    "panelTitle.inactiveForeground": "#7E8C9A",
 
-    "terminal.background": "#0a0e13",
-    "terminal.foreground": "#e6edf3",
-    "terminal.selectionBackground": "#1c4c7a66",
+    // --- Terminal ANSI Colors (The "Hacker Style" Pop!) ---
+    // These colors are crucial for the "hacker terminal" feel.
+    // They are vibrant, but chosen to be harmonious.
+    "terminal.background": "#0B0E14",
+    "terminal.foreground": "#E0E8F0",
+    "terminal.selectionBackground": "#2A5B8066",
 
-    // --- Terminal ANSI Colors (Linux-inspired) ---
-    "terminal.ansiBlack": "#21262d",
-    "terminal.ansiRed": "#ff6b6b",
-    "terminal.ansiGreen": "#51cf66",
-    "terminal.ansiYellow": "#ffd43b",
-    "terminal.ansiBlue": "#339af0",
-    "terminal.ansiMagenta": "#cc5de8",
-    "terminal.ansiCyan": "#22d3ee",
-    "terminal.ansiWhite": "#e6edf3",
-    "terminal.ansiBrightBlack": "#6e7681",
-    "terminal.ansiBrightRed": "#ff8787",
-    "terminal.ansiBrightGreen": "#8ce99a",
-    "terminal.ansiBrightYellow": "#ffe066",
-    "terminal.ansiBrightBlue": "#74c0fc",
-    "terminal.ansiBrightMagenta": "#d0bfff",
-    "terminal.ansiBrightCyan": "#66d9ef",
-    "terminal.ansiBrightWhite": "#f0f6fc",
+    "terminal.ansiBlack": "#2A2F3A", // Deeper, richer black
+    "terminal.ansiRed": "#E76F7C", // Vibrant, but not harsh, red
+    "terminal.ansiGreen": "#73DDAA", // **PURER, HACKER GREEN!**
+    "terminal.ansiYellow": "#F7E16D", // Bright, clear yellow
+    "terminal.ansiBlue": "#5BA9E2", // Energetic blue
+    "terminal.ansiMagenta": "#CC88D9", // Punchy magenta
+    "terminal.ansiCyan": "#66E2F5", // Luminous cyan
+    "terminal.ansiWhite": "#E0E8F0", // Clean white
 
-    // --- Scrollbars (Nearly Invisible) ---
-    "scrollbarSlider.background": "#21262d66",
-    "scrollbarSlider.hoverBackground": "#21262d88",
-    "scrollbarSlider.activeBackground": "#21262daa",
+    "terminal.ansiBrightBlack": "#6A7B8E", // Brighter muted black
+    "terminal.ansiBrightRed": "#FF8A96",
+    "terminal.ansiBrightGreen": "#88FFC9", // Brighter hacker green
+    "terminal.ansiBrightYellow": "#FFF18A",
+    "terminal.ansiBrightBlue": "#7EC2FA",
+    "terminal.ansiBrightMagenta": "#E0A0F0",
+    "terminal.ansiBrightCyan": "#88F5FF",
+    "terminal.ansiBrightWhite": "#F0F6FC",
+
+    // --- Scrollbars (Barely There) ---
+    "scrollbarSlider.background": "#3A455230",
+    "scrollbarSlider.hoverBackground": "#3A455250",
+    "scrollbarSlider.activeBackground": "#3A455270",
 
     // --- Input & Dropdown ---
-    "input.background": "#161b22",
-    "input.foreground": "#e6edf3",
-    "input.border": "#30363d",
-    "input.placeholderForeground": "#6e7681",
-    "inputOption.activeBorder": "#64ffda",
+    "input.background": "#1B2028",
+    "input.foreground": "#E0E8F0",
+    "input.border": "#3A4552",
+    "input.placeholderForeground": "#7E8C9A",
+    "inputOption.activeBackground": "#2A5B80", // Active input option
+    "inputOption.activeBorder": "#69FFC9",
 
-    "dropdown.background": "#161b22",
-    "dropdown.foreground": "#e6edf3",
-    "dropdown.border": "#30363d",
+    "dropdown.background": "#1B2028",
+    "dropdown.foreground": "#E0E8F0",
+    "dropdown.border": "#3A4552",
 
     // --- Button ---
-    "button.background": "#238636",
+    "button.background": "#2E8D50", // More vibrant green button
     "button.foreground": "#ffffff",
-    "button.hoverBackground": "#2ea043",
+    "button.hoverBackground": "#3DA060",
 
     // --- List/Tree ---
-    "list.activeSelectionBackground": "#1c4c7a",
+    "list.activeSelectionBackground": "#2A5B80",
     "list.activeSelectionForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#21262d",
-    "list.hoverBackground": "#161b2266",
-    "list.focusBackground": "#1c4c7a66",
+    "list.hoverBackground": "#1D222B",
+    "list.focusBackground": "#2A5B8066",
+    "list.highlightForeground": "#69FFC9", // Highlighted text in lists
 
     // --- Editor Widget ---
-    "editorWidget.background": "#161b22",
-    "editorWidget.border": "#30363d",
-    "editorSuggestWidget.background": "#161b22",
-    "editorSuggestWidget.border": "#30363d",
-    "editorSuggestWidget.selectedBackground": "#21262d",
+    "editorWidget.background": "#1B2028",
+    "editorWidget.border": "#3A4552",
+    "editorSuggestWidget.background": "#1B2028",
+    "editorSuggestWidget.border": "#3A4552",
+    "editorSuggestWidget.selectedBackground": "#2A5B8040", // More subtle selection
 
     // --- Peek View ---
-    "peekView.border": "#64ffda",
-    "peekViewEditor.background": "#0a0e13",
-    "peekViewResult.background": "#161b22",
-    "peekViewTitle.background": "#1c4c7a",
+    "peekView.border": "#69FFC9",
+    "peekViewEditor.background": "#0B0E14",
+    "peekViewResult.background": "#1B2028",
+    "peekViewTitle.background": "#2A5B80",
 
     // --- Notifications ---
-    "notificationCenter.border": "#30363d",
-    "notificationCenterHeader.background": "#161b22",
-    "notifications.background": "#161b22",
-    "notifications.border": "#30363d",
+    "notificationCenter.border": "#3A4552",
+    "notificationCenterHeader.background": "#1B2028",
+    "notifications.background": "#1B2028",
+    "notifications.border": "#3A4552",
 
     // --- Extensions ---
-    "extensionButton.prominentBackground": "#238636",
-    "extensionButton.prominentHoverBackground": "#2ea043"
+    "extensionButton.prominentBackground": "#2E8D50",
+    "extensionButton.prominentHoverBackground": "#3DA060",
+
+    // --- Git Decorations ---
+    "gitDecoration.addedResourceForeground": "#73DDAA", // Green for added files
+    "gitDecoration.modifiedResourceForeground": "#5BA9E2", // Blue for modified
+    "gitDecoration.deletedResourceForeground": "#E76F7C", // Red for deleted
+    "gitDecoration.untrackedResourceForeground": "#F7E16D", // Yellow for untracked
+    "gitDecoration.conflictingResourceForeground": "#CC88D9", // Magenta for conflicts
+    "gitDecoration.ignoredResourceForeground": "#6A7B8E" // Muted for ignored
   },
   "tokenColors": [
-    // --- Comments (Subtle but Readable) ---
+    // --- Comments (The requested "Hacker Pure Green"!) ---
     {
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#6e7681",
+        "foreground": "#69FFC9", // Bright, clear, purer green!
         "fontStyle": "italic"
       }
     },
 
-    // --- Keywords (Bright Purple Pop) ---
+    // --- Keywords (Vibrant Purple) ---
     {
       "scope": [
         "keyword",
@@ -152,70 +166,76 @@
         "keyword.control",
         "keyword.operator.new",
         "keyword.other.using",
-        "keyword.other.import"
+        "keyword.other.import",
+        "keyword.type" // Added for clarity
       ],
       "settings": {
-        "foreground": "#cc5de8",
+        "foreground": "#CC88D9", // Richer, more saturated purple
         "fontStyle": "bold"
       }
     },
 
-    // --- Strings (Vibrant Green) ---
+    // --- Strings (Bright, Clear Green) ---
     {
       "scope": [
         "string",
         "string.quoted",
         "string.template",
-        "punctuation.definition.string"
+        "punctuation.definition.string",
+        "markup.inline.raw"
       ],
       "settings": {
-        "foreground": "#51cf66"
+        "foreground": "#73DDAA" // Harmonized with comment green, but slightly different shade
       }
     },
 
-    // --- Numbers & Constants (Orange Accent) ---
+    // --- Numbers & Constants (Warm Gold) ---
     {
       "scope": [
         "constant.numeric",
         "constant.language",
         "constant.character",
-        "constant.other"
+        "constant.other",
+        "variable.language.this" // Often good to highlight 'this' differently
       ],
       "settings": {
-        "foreground": "#ffd43b"
+        "foreground": "#F7E16D" // Brighter, more golden yellow
       }
     },
 
-    // --- Functions (Electric Blue) ---
+    // --- Functions (Bright Sky Blue) ---
     {
       "scope": [
         "entity.name.function",
         "support.function",
         "meta.function-call.generic",
-        "variable.function"
+        "variable.function",
+        "entity.name.method" // For methods
       ],
       "settings": {
-        "foreground": "#339af0",
+        "foreground": "#5BA9E2", // Vibrant, clear blue
         "fontStyle": "bold"
       }
     },
 
-    // --- Classes & Types (Cyan) ---
+    // --- Classes & Types (Energetic Cyan) ---
     {
       "scope": [
         "entity.name.type",
         "entity.name.class",
         "support.class",
         "entity.other.inherited-class",
-        "storage.type.class"
+        "storage.type.class",
+        "entity.name.namespace",
+        "entity.name.scope-resolution" // For namespaces/modules
       ],
       "settings": {
-        "foreground": "#22d3ee",
+        "foreground": "#66E2F5", // Luminous cyan
         "fontStyle": "bold"
       }
     },
 
-    // --- Variables (Clean White) ---
+    // --- Variables (Clean White/Off-White) ---
     {
       "scope": [
         "variable",
@@ -224,90 +244,126 @@
         "support.variable"
       ],
       "settings": {
-        "foreground": "#e6edf3"
+        "foreground": "#E0E8F0"
       }
     },
 
-    // --- Object Properties (Light Blue) ---
+    // --- Object Properties (Subtle Light Blue) ---
     {
       "scope": [
         "meta.object-literal.key",
         "support.type.property-name",
         "variable.other.property",
-        "variable.other.object.property"
+        "variable.other.object.property",
+        "entity.name.tag.yaml"
       ],
       "settings": {
-        "foreground": "#74c0fc"
+        "foreground": "#7EC2FA" // Slightly brighter, softer blue
       }
     },
 
-    // --- HTML/XML Tags (Soft Red) ---
+    // --- HTML/XML Tags (Soft, but distinct red) ---
     {
       "scope": ["entity.name.tag", "punctuation.definition.tag", "markup.list"],
       "settings": {
-        "foreground": "#ff6b6b"
+        "foreground": "#E76F7C" // Clear, but not aggressive, red
       }
     },
 
-    // --- Attributes (Gold) ---
+    // --- Attributes (Warm Golden Yellow) ---
     {
       "scope": ["entity.other.attribute-name", "meta.attribute"],
       "settings": {
-        "foreground": "#ffd43b"
+        "foreground": "#F7E16D" // Harmonized with numbers/constants
       }
     },
 
-    // --- Punctuation (Muted) ---
+    // --- Punctuation (Muted but Visible Grey) ---
     {
       "scope": [
         "punctuation",
         "punctuation.separator",
         "punctuation.terminator",
-        "punctuation.definition"
+        "punctuation.definition",
+        "meta.brace",
+        "meta.block"
       ],
       "settings": {
-        "foreground": "#7d8590"
+        "foreground": "#7E8C9A" // Muted but clear grey
       }
     },
 
-    // --- Operators (Bright) ---
+    // --- Operators (Bright Cyan Accent) ---
     {
       "scope": [
         "keyword.operator",
         "keyword.operator.arithmetic",
         "keyword.operator.logical",
-        "keyword.operator.comparison"
+        "keyword.operator.comparison",
+        "keyword.operator.assignment" // Added for common assignment ops
       ],
       "settings": {
-        "foreground": "#64ffda"
+        "foreground": "#69FFC9" // Matches cursor, strong visual cue
       }
     },
 
-    // --- Regex (Special Purple) ---
+    // --- Regex (Softer Purple) ---
     {
       "scope": ["string.regexp", "constant.character.escape"],
       "settings": {
-        "foreground": "#d0bfff"
+        "foreground": "#D0BFFF" // Softer purple for regex
       }
     },
 
-    // --- JSON Keys (Distinct Blue) ---
+    // --- JSON Keys (Distinct Blue, slightly different from object properties) ---
     {
       "scope": [
         "support.type.property-name.json",
         "meta.structure.dictionary.key.json"
       ],
       "settings": {
-        "foreground": "#74c0fc"
+        "foreground": "#5BA9E2" // Using the function blue for JSON keys
       }
     },
 
-    // --- Markdown Headings ---
+    // --- Markdown Headings (Blue Accent) ---
     {
       "scope": ["markup.heading", "entity.name.section.markdown"],
       "settings": {
-        "foreground": "#339af0",
+        "foreground": "#5BA9E2", // Function blue for headings
         "fontStyle": "bold"
+      }
+    },
+    // Markdown Links
+    {
+      "scope": ["markup.link", "string.other.link"],
+      "settings": {
+        "foreground": "#66E2F5", // Cyan for links
+        "fontStyle": "underline"
+      }
+    },
+    // Markdown Bold
+    {
+      "scope": ["markup.bold"],
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#F7E16D" // Yellow for bold
+      }
+    },
+    // Markdown Italic
+    {
+      "scope": ["markup.italic"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#CC88D9" // Magenta for italic
+      }
+    },
+    // Markdown Blockquote
+    {
+      "scope": ["markup.quote"],
+      "settings": {
+        "foreground": "#7E8C9A", // Muted grey
+        "fontStyle": "italic"
       }
     },
 
@@ -315,8 +371,8 @@
     {
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#ffffff",
-        "background": "#da3633"
+        "foreground": "#FFFFFF",
+        "background": "#DA3633" // Strong, clear error background
       }
     }
   ]
