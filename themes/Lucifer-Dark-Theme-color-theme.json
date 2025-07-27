@@ -152,7 +152,7 @@
     {
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#69FFC9", // Bright, clear, purer green!
+        "foreground": "#178d00", // Bright, clear, purer green!
         "fontStyle": "italic"
       }
     },
