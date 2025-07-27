@@ -1,8 +1,15 @@
 {
-  "name": "Lucifer-Dark-Theme",
-  "displayName": "lucifer-dark",
+  "name": "lucifer-dark",
+  "displayName": "Lucifer Dark",
   "description": "A clean, minimal dark theme.",
   "version": "0.0.1",
+  "publisher": "NishantUnavane",
+  "license": "MIT",
+  "icon": "logo.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IamNishant51/Lucifer-Dark-Theme"
+  },
   "engines": {
     "vscode": "^1.102.0"
   },

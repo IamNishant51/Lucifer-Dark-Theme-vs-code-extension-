@@ -10,5 +10,3 @@ A **minimal**, **beautiful**, and **visually balanced** dark theme for developer
 - Vibrant but non-poppy colors for variables, functions, keywords, and strings
 - Compatible with popular fonts like `Fira Code`, `JetBrains Mono`, `Dank Mono`
 - Smooth cursor animations and font ligatures
-
----
