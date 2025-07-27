@@ -1,16 +1,37 @@
-# Lucifer-Dark-Theme README
+# Lucifer Dark Theme for VS Code
 
-## Working with Markdown
+A **minimal**, **beautiful**, and **visually balanced** dark theme for developers who love clean interfaces and smooth coding experience. Inspired by macOS elegance and Linux terminal color vibes.
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+---
+## ✨ Features
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+- Subtle dark background for reduced eye strain
+- Neutral, soft, and professional syntax highlighting
+- Vibrant but non-poppy colors for variables, functions, keywords, and strings
+- Compatible with popular fonts like `Fira Code`, `JetBrains Mono`, `Dank Mono`
+- Smooth cursor animations and font ligatures
 
-## For more information
+---
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+## 🖼️ Screenshots
 
-**Enjoy!**
+### JavaScript
+![JS Preview](./screenshots/js.png)
+
+### React + JSX
+![React Preview](./screenshots/react.png)
+
+### HTML
+![HTML Preview](./screenshots/html.png)
+
+---
+
+## 📦 Installation (Local)
+
+1. Download or clone this repository.
+2. Open the terminal inside the theme folder.
+3. Run:
+
+   ```bash
+   npm install -g @vscode/vsce
+   vsce package
