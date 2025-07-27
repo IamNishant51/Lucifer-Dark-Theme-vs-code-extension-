@@ -1,0 +1,21 @@
+{
+  "name": "Lucifer-Dark-Theme",
+  "displayName": "lucifer-dark",
+  "description": "A clean, minimal dark theme.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lucifer-Dark-Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Lucifer-Dark-Theme-color-theme.json"
+      }
+    ]
+  }
+}
