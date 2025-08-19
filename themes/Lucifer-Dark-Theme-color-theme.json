@@ -2,162 +2,139 @@
   "name": "Lucifer Terminal Dark (Hacker Edition)",
   "type": "dark",
   "colors": {
-    // --- Core Editor (Deep Terminal Black Base with a hint of blue) ---
-    "editor.background": "#0B0E14", // Deeper, slightly richer black
-    "editor.foreground": "#E0E8F0", // Soft, cool white for main text
+    "editor.background": "#0B0E14", 
+    "editor.foreground": "#E0E8F0", 
 
-    // --- Selection & Highlighting (Electric Blue/Cyan Glow) ---
-    "editor.selectionBackground": "#2A5B8080", // More vibrant, slightly translucent blue
+    "editor.selectionBackground": "#2A5B8080", 
     "editor.selectionHighlightBackground": "#2A5B8040",
-    "editor.lineHighlightBackground": "#161B24", // Subtle shift from editor background
-    "editor.wordHighlightBackground": "#3D4A5Caa", // Slightly more defined highlight
+    "editor.lineHighlightBackground": "#161B24", 
+    "editor.wordHighlightBackground": "#3D4A5Caa", 
     "editor.wordHighlightStrongBackground": "#3D4A5C66",
-    "editor.findMatchBackground": "#FFD33D44", // Yellow remains, but more defined
+    "editor.findMatchBackground": "#FFD33D44", 
     "editor.findMatchHighlightBackground": "#FFD33D22",
 
-    // --- Cursor & Line Numbers (Bright Accents) ---
-    "editorCursor.foreground": "#69FFC9", // Brighter, purer green for the cursor
-    "editorLineNumber.foreground": "#4F5968", // Muted for readability
-    "editorLineNumber.activeForeground": "#8FD4C1", // A subtle green for active line number
+    "editorCursor.foreground": "#69FFC9", 
+    "editorLineNumber.foreground": "#4F5968", 
+    "editorLineNumber.activeForeground": "#8FD4C1", 
 
-    // --- Sidebar & Panel Hierarchy (Clearer Separation) ---
-    "sideBar.background": "#0F131A", // Distinct from editor background
+    "sideBar.background": "#0F131A", 
     "sideBar.foreground": "#CBD5E0",
-    "sideBar.border": "#2C3540", // Stronger border for separation
+    "sideBar.border": "#2C3540", 
     "sideBarSectionHeader.background": "#1B2028",
     "sideBarSectionHeader.foreground": "#F0F6FC",
 
-    // --- Activity Bar (Striking Active Indicator) ---
     "activityBar.background": "#0F131A",
     "activityBar.foreground": "#7E8C9A",
-    "activityBar.activeBorder": "#69FFC9", // Bright green active border
-    "activityBar.activeBackground": "#2A5B8022", // Subtle blue background for active
+    "activityBar.activeBorder": "#69FFC9", 
+    "activityBar.activeBackground": "#2A5B8022",
     "activityBar.border": "#2C3540",
 
-    // --- Tabs (Crisp & Focused) ---
-    "tab.activeBackground": "#0B0E14", // Matches editor background for continuity
+    "tab.activeBackground": "#0B0E14", 
     "tab.activeForeground": "#E0E8F0",
-    "tab.activeBorder": "#69FFC9", // Bright green border on active tab
+    "tab.activeBorder": "#69FFC9", 
     "tab.activeBorderTop": "#69FFC9",
     "tab.inactiveBackground": "#1B2028",
     "tab.inactiveForeground": "#7E8C9A",
     "tab.border": "#2C3540",
 
-    // --- Title Bar ---
     "titleBar.activeBackground": "#0F131A",
     "titleBar.activeForeground": "#E0E8F0",
     "titleBar.border": "#2C3540",
 
-    // --- Status Bar (Subtle Info Strip) ---
     "statusBar.background": "#0F131A",
     "statusBar.foreground": "#7E8C9A",
     "statusBar.border": "#2C3540",
     "statusBar.noFolderBackground": "#0F131A",
-    "statusBar.debuggingBackground": "#E06C75", // Clearer red for debugging
+    "statusBar.debuggingBackground": "#E06C75", 
 
-    // --- Panel & Terminal (Unified with Editor Background) ---
     "panel.background": "#0B0E14",
     "panel.border": "#2C3540",
     "panelTitle.activeForeground": "#E0E8F0",
     "panelTitle.inactiveForeground": "#7E8C9A",
 
-    // --- Terminal ANSI Colors (The "Hacker Style" Pop!) ---
-    // These colors are crucial for the "hacker terminal" feel.
-    // They are vibrant, but chosen to be harmonious.
     "terminal.background": "#0B0E14",
     "terminal.foreground": "#E0E8F0",
     "terminal.selectionBackground": "#2A5B8066",
 
-    "terminal.ansiBlack": "#2A2F3A", // Deeper, richer black
-    "terminal.ansiRed": "#E76F7C", // Vibrant, but not harsh, red
-    "terminal.ansiGreen": "#73DDAA", // **PURER, HACKER GREEN!**
-    "terminal.ansiYellow": "#F7E16D", // Bright, clear yellow
-    "terminal.ansiBlue": "#5BA9E2", // Energetic blue
-    "terminal.ansiMagenta": "#CC88D9", // Punchy magenta
-    "terminal.ansiCyan": "#66E2F5", // Luminous cyan
-    "terminal.ansiWhite": "#E0E8F0", // Clean white
+    "terminal.ansiBlack": "#2A2F3A", 
+    "terminal.ansiRed": "#E76F7C", 
+    "terminal.ansiGreen": "#73DDAA", 
+    "terminal.ansiYellow": "#F7E16D", 
+    "terminal.ansiBlue": "#5BA9E2", 
+    "terminal.ansiMagenta": "#CC88D9",
+    "terminal.ansiCyan": "#66E2F5", 
+    "terminal.ansiWhite": "#E0E8F0",
 
-    "terminal.ansiBrightBlack": "#6A7B8E", // Brighter muted black
+    "terminal.ansiBrightBlack": "#6A7B8E", 
     "terminal.ansiBrightRed": "#FF8A96",
-    "terminal.ansiBrightGreen": "#88FFC9", // Brighter hacker green
+    "terminal.ansiBrightGreen": "#88FFC9", 
     "terminal.ansiBrightYellow": "#FFF18A",
     "terminal.ansiBrightBlue": "#7EC2FA",
     "terminal.ansiBrightMagenta": "#E0A0F0",
     "terminal.ansiBrightCyan": "#88F5FF",
     "terminal.ansiBrightWhite": "#F0F6FC",
 
-    // --- Scrollbars (Barely There) ---
     "scrollbarSlider.background": "#3A455230",
     "scrollbarSlider.hoverBackground": "#3A455250",
     "scrollbarSlider.activeBackground": "#3A455270",
 
-    // --- Input & Dropdown ---
     "input.background": "#1B2028",
     "input.foreground": "#E0E8F0",
     "input.border": "#3A4552",
     "input.placeholderForeground": "#7E8C9A",
-    "inputOption.activeBackground": "#2A5B80", // Active input option
+    "inputOption.activeBackground": "#2A5B80", 
     "inputOption.activeBorder": "#69FFC9",
 
     "dropdown.background": "#1B2028",
     "dropdown.foreground": "#E0E8F0",
     "dropdown.border": "#3A4552",
 
-    // --- Button ---
-    "button.background": "#2E8D50", // More vibrant green button
+    "button.background": "#2E8D50", 
     "button.foreground": "#ffffff",
     "button.hoverBackground": "#3DA060",
 
-    // --- List/Tree ---
     "list.activeSelectionBackground": "#2A5B80",
     "list.activeSelectionForeground": "#ffffff",
     "list.inactiveSelectionBackground": "#21262d",
     "list.hoverBackground": "#1D222B",
     "list.focusBackground": "#2A5B8066",
-    "list.highlightForeground": "#69FFC9", // Highlighted text in lists
+    "list.highlightForeground": "#69FFC9", 
 
-    // --- Editor Widget ---
     "editorWidget.background": "#1B2028",
     "editorWidget.border": "#3A4552",
     "editorSuggestWidget.background": "#1B2028",
     "editorSuggestWidget.border": "#3A4552",
-    "editorSuggestWidget.selectedBackground": "#2A5B8040", // More subtle selection
+    "editorSuggestWidget.selectedBackground": "#2A5B8040", 
 
-    // --- Peek View ---
     "peekView.border": "#69FFC9",
     "peekViewEditor.background": "#0B0E14",
     "peekViewResult.background": "#1B2028",
     "peekViewTitle.background": "#2A5B80",
 
-    // --- Notifications ---
     "notificationCenter.border": "#3A4552",
     "notificationCenterHeader.background": "#1B2028",
     "notifications.background": "#1B2028",
     "notifications.border": "#3A4552",
 
-    // --- Extensions ---
     "extensionButton.prominentBackground": "#2E8D50",
     "extensionButton.prominentHoverBackground": "#3DA060",
 
-    // --- Git Decorations ---
-    "gitDecoration.addedResourceForeground": "#73DDAA", // Green for added files
-    "gitDecoration.modifiedResourceForeground": "#5BA9E2", // Blue for modified
-    "gitDecoration.deletedResourceForeground": "#E76F7C", // Red for deleted
-    "gitDecoration.untrackedResourceForeground": "#F7E16D", // Yellow for untracked
-    "gitDecoration.conflictingResourceForeground": "#CC88D9", // Magenta for conflicts
-    "gitDecoration.ignoredResourceForeground": "#6A7B8E" // Muted for ignored
+    "gitDecoration.addedResourceForeground": "#73DDAA", 
+    "gitDecoration.modifiedResourceForeground": "#5BA9E2", 
+    "gitDecoration.deletedResourceForeground": "#E76F7C", 
+    "gitDecoration.untrackedResourceForeground": "#F7E16D", 
+    "gitDecoration.conflictingResourceForeground": "#CC88D9",
+    "gitDecoration.ignoredResourceForeground": "#6A7B8E" 
   },
   "tokenColors": [
-    // --- Comments (The requested "Hacker Pure Green"!) ---
     {
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#178d00", // Bright, clear, purer green!
+        "foreground": "#178d00", 
         "fontStyle": "italic"
       }
     },
 
-    // --- Keywords (Vibrant Purple) ---
     {
       "scope": [
         "keyword",
@@ -167,15 +144,14 @@
         "keyword.operator.new",
         "keyword.other.using",
         "keyword.other.import",
-        "keyword.type" // Added for clarity
+        "keyword.type" 
       ],
       "settings": {
-        "foreground": "#CC88D9", // Richer, more saturated purple
+        "foreground": "#CC88D9", 
         "fontStyle": "bold"
       }
     },
 
-    // --- Strings (Bright, Clear Green) ---
     {
       "scope": [
         "string",
@@ -185,40 +161,37 @@
         "markup.inline.raw"
       ],
       "settings": {
-        "foreground": "#73DDAA" // Harmonized with comment green, but slightly different shade
+        "foreground": "#73DDAA" 
       }
     },
 
-    // --- Numbers & Constants (Warm Gold) ---
     {
       "scope": [
         "constant.numeric",
         "constant.language",
         "constant.character",
         "constant.other",
-        "variable.language.this" // Often good to highlight 'this' differently
+        "variable.language.this" 
       ],
       "settings": {
-        "foreground": "#F7E16D" // Brighter, more golden yellow
+        "foreground": "#F7E16D" 
       }
     },
 
-    // --- Functions (Bright Sky Blue) ---
     {
       "scope": [
         "entity.name.function",
         "support.function",
         "meta.function-call.generic",
         "variable.function",
-        "entity.name.method" // For methods
+        "entity.name.method" 
       ],
       "settings": {
-        "foreground": "#5BA9E2", // Vibrant, clear blue
+        "foreground": "#5BA9E2", 
         "fontStyle": "bold"
       }
     },
 
-    // --- Classes & Types (Energetic Cyan) ---
     {
       "scope": [
         "entity.name.type",
@@ -227,15 +200,14 @@
         "entity.other.inherited-class",
         "storage.type.class",
         "entity.name.namespace",
-        "entity.name.scope-resolution" // For namespaces/modules
+        "entity.name.scope-resolution" 
       ],
       "settings": {
-        "foreground": "#66E2F5", // Luminous cyan
+        "foreground": "#66E2F5", 
         "fontStyle": "bold"
       }
     },
 
-    // --- Variables (Clean White/Off-White) ---
     {
       "scope": [
         "variable",
@@ -248,7 +220,6 @@
       }
     },
 
-    // --- Object Properties (Subtle Light Blue) ---
     {
       "scope": [
         "meta.object-literal.key",
@@ -258,27 +229,24 @@
         "entity.name.tag.yaml"
       ],
       "settings": {
-        "foreground": "#7EC2FA" // Slightly brighter, softer blue
+        "foreground": "#7EC2FA" 
       }
     },
 
-    // --- HTML/XML Tags (Soft, but distinct red) ---
     {
       "scope": ["entity.name.tag", "punctuation.definition.tag", "markup.list"],
       "settings": {
-        "foreground": "#E76F7C" // Clear, but not aggressive, red
+        "foreground": "#E76F7C"
       }
     },
 
-    // --- Attributes (Warm Golden Yellow) ---
     {
       "scope": ["entity.other.attribute-name", "meta.attribute"],
       "settings": {
-        "foreground": "#F7E16D" // Harmonized with numbers/constants
+        "foreground": "#F7E16D" 
       }
     },
 
-    // --- Punctuation (Muted but Visible Grey) ---
     {
       "scope": [
         "punctuation",
@@ -289,90 +257,81 @@
         "meta.block"
       ],
       "settings": {
-        "foreground": "#7E8C9A" // Muted but clear grey
+        "foreground": "#7E8C9A" 
       }
     },
 
-    // --- Operators (Bright Cyan Accent) ---
     {
       "scope": [
         "keyword.operator",
         "keyword.operator.arithmetic",
         "keyword.operator.logical",
         "keyword.operator.comparison",
-        "keyword.operator.assignment" // Added for common assignment ops
+        "keyword.operator.assignment" 
       ],
       "settings": {
-        "foreground": "#69FFC9" // Matches cursor, strong visual cue
+        "foreground": "#69FFC9" 
       }
     },
 
-    // --- Regex (Softer Purple) ---
     {
       "scope": ["string.regexp", "constant.character.escape"],
       "settings": {
-        "foreground": "#D0BFFF" // Softer purple for regex
+        "foreground": "#D0BFFF" 
       }
     },
 
-    // --- JSON Keys (Distinct Blue, slightly different from object properties) ---
     {
       "scope": [
         "support.type.property-name.json",
         "meta.structure.dictionary.key.json"
       ],
       "settings": {
-        "foreground": "#5BA9E2" // Using the function blue for JSON keys
+        "foreground": "#5BA9E2" 
       }
     },
 
-    // --- Markdown Headings (Blue Accent) ---
     {
       "scope": ["markup.heading", "entity.name.section.markdown"],
       "settings": {
-        "foreground": "#5BA9E2", // Function blue for headings
+        "foreground": "#5BA9E2",
         "fontStyle": "bold"
       }
     },
-    // Markdown Links
     {
       "scope": ["markup.link", "string.other.link"],
       "settings": {
-        "foreground": "#66E2F5", // Cyan for links
+        "foreground": "#66E2F5", 
         "fontStyle": "underline"
       }
     },
-    // Markdown Bold
     {
       "scope": ["markup.bold"],
       "settings": {
         "fontStyle": "bold",
-        "foreground": "#F7E16D" // Yellow for bold
+        "foreground": "#F7E16D" 
       }
     },
-    // Markdown Italic
     {
       "scope": ["markup.italic"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#CC88D9" // Magenta for italic
+        "foreground": "#CC88D9" 
       }
     },
-    // Markdown Blockquote
     {
       "scope": ["markup.quote"],
       "settings": {
-        "foreground": "#7E8C9A", // Muted grey
+        "foreground": "#7E8C9A", 
         "fontStyle": "italic"
       }
     },
 
-    // --- Invalid/Error (High Contrast) ---
     {
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#FFFFFF",
-        "background": "#DA3633" // Strong, clear error background
+        "background": "#DA3633" 
       }
     }
   ]
