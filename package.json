@@ -1,8 +1,13 @@
 {
   "name": "lucifer-dark",
   "displayName": "Lucifer Dark",
+<<<<<<< HEAD
   "description": "A clean, minimal dark theme, with solid and transparent variants for Nishant, The Web Architect.",
   "version": "1.0.0",
+=======
+  "description": "A clean, minimal dark theme.",
+  "version": "1.1.0",
+>>>>>>> 5c7d391 (added few more colors)
   "publisher": "NishantUnavane",
   "license": "MIT",
   "icon": "logo.png",
