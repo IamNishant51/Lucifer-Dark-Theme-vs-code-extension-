@@ -42,7 +42,7 @@ For the best experience, we recommend:
     "editor.cursorBlinking": "phase"
 }
 
-```json
+```
 
 ---
 
