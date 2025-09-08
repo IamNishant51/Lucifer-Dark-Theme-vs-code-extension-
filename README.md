@@ -41,3 +41,7 @@ For the best experience, we recommend:
     "editor.lineHeight": 1.5,
     "editor.cursorBlinking": "phase"
 }
+
+---
+
+Made with ❤️ by Nishant Unavane
