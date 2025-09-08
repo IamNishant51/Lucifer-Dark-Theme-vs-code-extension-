@@ -43,6 +43,7 @@ For the best experience, we recommend:
 }
 
 ```json
+
 ---
 
 Made with ❤️ by Nishant Unavane
