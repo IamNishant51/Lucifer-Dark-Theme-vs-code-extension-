@@ -42,6 +42,7 @@ For the best experience, we recommend:
     "editor.cursorBlinking": "phase"
 }
 
+```json
 ---
 
 Made with ❤️ by Nishant Unavane
